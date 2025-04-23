@@ -6,6 +6,8 @@ def concatenate_string(strings: List[str]) -> str:
     return ''.join(strings)
 
 
+
+
 def display_name(message: str):
     print(message)
 

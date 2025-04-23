@@ -18,7 +18,7 @@ def check_blanck_lines_blocks(file_path):
                     errors += 1
                 
                 elif re.match(r'^\s*$' , lines[i-3]):
-                    print(f"{file_path}:{i+1}: Expected exactly 2 blanck lines before block definition")
+                    print(f"{file_path}:{i+1}: Expected exactly 2 blanck lines before block definition, tú tienes más de 3")
                     errors += 1
     return errors
 
